@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\user\Desktop\테스트중입니다\테스트중입니다\</FILEPATH>
+      <FILENAME>소스.c</FILENAME>
+      <LINE>273</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>NULL 포인터 'newStudent'을(를) 역참조하고 있습니다. </DESCRIPTION>
+    <FUNCTION>addStudent</FUNCTION>
+    <DECORATED>addStudent</DECORATED>
+    <FUNCLINE>268</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\user\Desktop\테스트중입니다\테스트중입니다\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newStudent'은(는) NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\user\Desktop\테스트중입니다\테스트중입니다\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>사용법</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newStudent'이(가) 역참조되었지만 여전히 NULL일 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\user\Desktop\테스트중입니다\테스트중입니다\</FILEPATH>
+      <FILENAME>소스.c</FILENAME>
+      <LINE>723</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'fscanf'.</DESCRIPTION>
+    <FUNCTION>moneyAdd</FUNCTION>
+    <DECORATED>moneyAdd</DECORATED>
+    <FUNCLINE>707</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
